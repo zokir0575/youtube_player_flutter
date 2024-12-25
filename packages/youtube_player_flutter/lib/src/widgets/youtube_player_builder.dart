@@ -39,6 +39,7 @@ class _YoutubePlayerBuilderState extends State<YoutubePlayerBuilder>
 
   @override
   void initState() {
+    print('aa');
     super.initState();
     WidgetsBinding.instance.addObserver(this);
   }
